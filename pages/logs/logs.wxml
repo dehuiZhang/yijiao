@@ -1,0 +1,9 @@
+<!--logs.wxml-->
+<view class="container" style="width:{{width}}px;min-height:{{height}}px;">
+  <view class="tap_list">
+    <view class="tap tap1 {{active==1?'active':''}}" bindtap="change_tap" data-tap="1">标签优先</view>
+    <view class="tap tap2 {{active==2?'active':''}}" bindtap="change_tap" data-tap="2">添加时间</view>
+    <view class="tap {{active==3?'active':''}}" bindtap="change_tap" data-tap="3">通知时间</view>
+  </view>
+  <image src="../../images/add.png" bindtap="add"/>
+</view>

@@ -1,0 +1,31 @@
+.container{
+  background:#000;
+}
+.item{
+  width:100%;
+  border-bottom:1px solid #fff;
+  height:80rpx;
+}
+.item_left{
+  width:30%;
+  height:100%;
+  float:left;
+  color:#fff;
+  text-align:center;
+  line-height:80rpx;
+}
+.item_right{
+  width:70%;
+  height:100%;
+  float:left;
+}
+.input{
+  color:#fff;
+  height:80rpx;
+  line-height:80rpx;
+}
+.textarea{
+  background:#000;
+  color:#fff;
+  width:100%;
+}

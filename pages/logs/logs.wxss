@@ -1,0 +1,30 @@
+.container{
+  background:#000;
+}
+.tap_list{
+  width:94%;
+  height:60rpx;
+  margin:0 3%;
+  border:1px solid #fff;
+  display: flex;
+  flex-flow: row;
+}
+.tap{
+  height:100%;
+  color:#fff;
+  text-align:center;
+  font-size:24rpx;
+  line-height:60rpx;
+  background:#000;
+  flex-grow:1;
+}
+.active{
+  background:#fff;
+  color:#000;
+}
+.tap1{
+  border-right:1px solid #fff;
+}
+.tap2{
+  border-right:1px solid #fff;
+}

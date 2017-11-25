@@ -1,0 +1,34 @@
+<!--logs.wxml-->
+<view class="container" style="width:{{width}}px;min-height:{{height}}px;">
+  <view class="item">
+    <view class="item_left">客户姓名：</view>
+    <view class="item_right">
+      <input value="{{name}}" class="input" focus="true" bindinput="bindinput" data-type="name"/>
+    </view>
+  </view>
+  <view class="item">
+    <view class="item_left">客户电话：</view>
+    <view class="item_right">
+      <input value="{{phone}}" class="input" bindinput="bindinput" data-type="phone"/>
+    </view>
+  </view>
+  <view class="item">
+    <view class="item_left">咨询行程：</view>
+    <view class="item_right">
+      <input value="{{point}}" class="input" bindinput="bindinput" data-type="point"/>
+    </view>
+  </view>
+  <view class="item">
+    <view class="item_left">出发时间：</view>
+    <view class="item_right">
+      <input value="{{time}}" class="input" bindinput="bindinput" data-type="time"/>
+    </view>
+  </view>
+  <view style="width:100%;height:150px;border-bottom:1px solid #fff;">
+    <view class="item_left">备注：</view>
+    <view class="item_right">
+      <textarea value="{{extra}}" bindinput="bindinput" data-type="extra" class="textarea"/>
+    </view>
+  </view>
+  <view bindtap="confirm" style="color:#fff;">确认</view>
+</view>
