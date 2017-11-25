@@ -5,5 +5,5 @@
     <view class="tap tap2 {{active==2?'active':''}}" bindtap="change_tap" data-tap="2">添加时间</view>
     <view class="tap {{active==3?'active':''}}" bindtap="change_tap" data-tap="3">通知时间</view>
   </view>
-  <image src="../../images/add.png" bindtap="add"/>
+  <image src="../../images/add.png" bindtap="add" style="width:80rpx;height:80rpx;position:fixed;bottom:0;left:50%;margin-left:-40rpx;"/>
 </view>

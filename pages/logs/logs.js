@@ -17,6 +17,9 @@ Page({
   },
   onLoad: function () {
     let that = this;
+    wx.setNavigationBarTitle({
+      title: '客户信息'
+    })
     wx.getSystemInfo({
       success: function(res) {
         that.setData({

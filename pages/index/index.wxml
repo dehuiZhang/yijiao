@@ -9,5 +9,5 @@
     </view>
     <view class="clear"></view>
   </view>
-  <view style="color:#fff;font-size:28rp;text-align:center;padding-bottom:10rpx;">我也是有底线的</view>
+  <view style="display:{{over_bottom?'block':'none'}};color:#fff;font-size:24rp;text-align:center;padding-bottom:10rpx;">我也是有底线的</view>
 </view>
